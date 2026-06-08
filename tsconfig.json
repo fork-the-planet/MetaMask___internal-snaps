@@ -1,0 +1,13 @@
+{
+  /**
+   * This configuration is used by the `lint` script in `package.json`, and by editors such as
+   * VSCode for TypeScript-related features.
+   */
+  "extends": "./tsconfig.base.json",
+  "compilerOptions": {
+    "noEmit": true
+  },
+  "references": [],
+  "files": [],
+  "include": ["./docs", "./tests", "./scripts"]
+}
